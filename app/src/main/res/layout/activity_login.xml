@@ -73,7 +73,8 @@
                 android:textAppearance="@style/TextAppearance.AppCompat"
                 android:textSize="18sp"
                 android:textColor="@android:color/background_light"
-                android:background="@color/colorAccent" />
+                android:background="@color/colorAccent"
+                android:onClick="onClick" />
 
         </LinearLayout>
     </ScrollView>
