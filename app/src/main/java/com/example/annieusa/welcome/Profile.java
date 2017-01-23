@@ -19,11 +19,20 @@ public class Profile extends AppCompatActivity {
         button2 = (Button)findViewById(R.id.button2);
         textView = (TextView)findViewById(R.id.textView);
 
-        button.setOnClickListener(new Button.OnClickListener(){
+        button2.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 textView.setText("(已改變)此Activity是繼承BaseActivity");
+            }
+
+        });
+
+        button.setOnClickListener(new Button.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                textView.setTextColor(0xffff8800);
             }
 
         });

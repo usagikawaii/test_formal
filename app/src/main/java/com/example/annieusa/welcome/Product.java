@@ -21,12 +21,8 @@ public class Product extends AppCompatActivity {
         button6.setOnClickListener(new Button.OnClickListener(){
 
             @Override
-
             public void onClick(View v) {
-
                 // TODO Auto-generated method stub
-
-                textView3.setText(" ");
 
             }
 
