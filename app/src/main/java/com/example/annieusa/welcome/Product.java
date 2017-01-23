@@ -1,6 +1,5 @@
 package com.example.annieusa.welcome;
 
-import android.app.Dialog;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,7 +11,7 @@ public class Product extends AppCompatActivity {
 
     private Button button6;
 
-    AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this).create();;
+    AlertDialog.Builder dialog = new AlertDialog.Builder(this);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
